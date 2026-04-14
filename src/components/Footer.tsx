@@ -36,7 +36,7 @@ export default function Footer() {
             >
               <div className="relative">
                 <Image
-                  src="/logo 7.png"
+                  src="/logo.jpeg"
                   alt="Massage Therapy Logo"
                   width={50}
                   height={50}
@@ -59,7 +59,7 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-3 pt-4">
               <motion.a
-                href="tel:+447400415437"
+                href="tel:00447843018518"
                 whileHover={{ x: 5 }}
                 className="flex items-center text-gray-800 hover:text-amber-900 transition-colors duration-300 group"
               >
@@ -68,7 +68,7 @@ export default function Footer() {
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
-                <span className="font-medium">+44 7400 415437</span>
+                <span className="font-medium">00447843018518</span>
               </motion.a>
               
               <motion.div
@@ -247,18 +247,33 @@ export default function Footer() {
             {/* Social Media */}
             <div className="space-y-4">
               <p className="text-gray-800 text-sm text-center">Follow us on social media</p>
-              <motion.a
-                href="https://www.tiktok.com/@massagetherapy696?_r=1&_t=ZN-945S35ornZj"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05, y: -3 }}
-                className="inline-flex items-center space-x-3 bg-white/20 border border-amber-900/30 px-6 py-3 rounded-full text-gray-800 hover:bg-white/30 hover:text-amber-900 transition-all duration-300 shadow-lg hover:shadow-xl"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.89.01 5.77-.02 8.64-.08 1.36-.54 2.71-1.35 3.77-.8 1.06-1.96 1.79-3.22 2.11-1.27.33-2.64.29-3.88-.15-1.11-.39-2.11-1.08-2.84-1.96-.75-.89-1.23-1.99-1.39-3.13-.16-1.05-.14-2.13.08-3.16.22-1.03.67-2 1.33-2.8.66-.8 1.51-1.44 2.47-1.81.85-.33 1.77-.46 2.68-.41.01 1.32.02 2.64.01 3.96-.5-.15-1.05-.24-1.57-.12-.52.12-.99.45-1.25.92-.26-.47-.31 1.04-.18 1.56.13.52.45.98.91 1.25.46.27 1.02.33 1.54.2.52-.13.98-.45 1.25-.91.27-.46.33-1.02.2-1.54-.13-.52-.45-.98-.91-1.25-.46-.27-1.02-.33-1.54-.2.01-1.32.02-2.64.01-3.96.5.15 1.05.24 1.57.12.52-.12.99-.45 1.25-.92.26-.47.31-1.04.18-1.56z"/>
-                </svg>
-                <span className="font-medium">@massagetherapy696</span>
-              </motion.a>
+              <div className="flex flex-col space-y-3">
+                <motion.a
+                  href="https://www.tiktok.com/@healing.touch64"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05, y: -3 }}
+                  className="inline-flex items-center space-x-3 bg-white/20 border border-amber-900/30 px-6 py-3 rounded-full text-gray-800 hover:bg-white/30 hover:text-amber-900 transition-all duration-300 shadow-lg hover:shadow-xl"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.89.01 5.77-.02 8.64-.08 1.36-.54 2.71-1.35 3.77-.8 1.06-1.96 1.79-3.22 2.11-1.27.33-2.64.29-3.88-.15-1.11-.39-2.11-1.08-2.84-1.96-.75-.89-1.23-1.99-1.39-3.13-.16-1.05-.14-2.13.08-3.16.22-1.03.67-2 1.33-2.8.66-.8 1.51-1.44 2.47-1.81.85-.33 1.77-.46 2.68-.41.01 1.32.02 2.64.01 3.96-.5-.15-1.05-.24-1.57-.12-.52.12-.99.45-1.25.92-.26-.47-.31 1.04-.18 1.56.13.52.45.98.91 1.25.46.27 1.02.33 1.54.2.52-.13.98-.45 1.25-.91.27-.46.33-1.02.2-1.54-.13-.52-.45-.98-.91-1.25-.46-.27-1.02-.33-1.54-.2.01-1.32.02-2.64.01-3.96.5.15 1.05.24 1.57.12.52-.12.99-.45 1.25-.92.26-.47.31-1.04.18-1.56z"/>
+                  </svg>
+                  <span className="font-medium">@healing.touch64</span>
+                </motion.a>
+
+                <motion.a
+                  href="https://www.instagram.com/healingtouch642026/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05, y: -3 }}
+                  className="inline-flex items-center space-x-3 bg-white/20 border border-amber-900/30 px-6 py-3 rounded-full text-gray-800 hover:bg-white/30 hover:text-amber-900 transition-all duration-300 shadow-lg hover:shadow-xl"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                  </svg>
+                  <span className="font-medium">@healingtouch642026</span>
+                </motion.a>
+              </div>
             </div>
 
             {/* CTA Button */}

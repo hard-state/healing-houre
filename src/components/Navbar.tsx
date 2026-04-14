@@ -192,7 +192,7 @@ export default function Navbar() {
               onMouseLeave={() => setIsHoveringLogo(false)}
             >
               <Image
-                src="/logo 7.png"
+                src="/logo.jpeg"
                 alt="Massage Therapy Logo"
                 width={50}
                 height={50}

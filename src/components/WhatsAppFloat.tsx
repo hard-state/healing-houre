@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 export default function WhatsAppFloat() {
-  const whatsappNumber = "+447400415437";
+  const whatsappNumber = "00447843018518";
   const whatsappUrl = `https://wa.me/${whatsappNumber.replace(/[^\d]/g, '')}`;
 
   return (

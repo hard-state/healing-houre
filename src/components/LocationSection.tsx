@@ -52,8 +52,8 @@ export default function LocationSection() {
       line2: locationData?.address?.line2 || 'London area'
     },
     contact: {
-      phone: locationData?.contact?.phone || '+44 7400 415437',
-      email: locationData?.contact?.email || 'info@massagetherapy.co.uk'
+      phone: locationData?.contact?.phone || '00447843018518',
+      email: locationData?.contact?.email || 'Healingtouch64@outlook.com'
     },
     hours: locationData?.hours || 'Monday - Sunday: 9:00 AM - 2:00 AM',
     mapEmbedUrl: locationData?.mapEmbedUrl || 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.432384928423!2d-0.122920684423873!3d51.51121371806905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca7d2d3b7b%3A0x4f3b5b5b5b5b5b5b!2sCovent%20Garden%2C%20London%2C%20UK!5e0!3m2!1sen!2sus!4v1234567890'

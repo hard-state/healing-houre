@@ -53,7 +53,7 @@ function LocationForm({ locationData, onSave, onCancel }: { locationData: any, o
           value={formData.contact.phone}
           onChange={(e) => setFormData({ ...formData, contact: { ...formData.contact, phone: e.target.value } })}
           className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2"
-          placeholder="+44 7400 415437"
+          placeholder="00447843018518"
           required
         />
       </div>
@@ -65,7 +65,7 @@ function LocationForm({ locationData, onSave, onCancel }: { locationData: any, o
           value={formData.contact.email}
           onChange={(e) => setFormData({ ...formData, contact: { ...formData.contact, email: e.target.value } })}
           className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2"
-          placeholder="info@massagetherapy.co.uk"
+          placeholder="Healingtouch64@outlook.com"
           required
         />
       </div>

@@ -88,7 +88,7 @@ export default function LoadingScreen() {
         <div className={`logo-container mb-8 ${isFadingOut ? 'fade-out' : ''}`}>
           <div className="logo-wrapper">
             <img 
-              src="/logo 7.png" 
+              src="/logo.jpeg" 
               alt="The Healing Houre Logo"
               className="logo-image m-8"
             />
